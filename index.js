@@ -1,5 +1,5 @@
 import { registerRootComponent } from 'expo';
-
+import "nativewind"; // Bunu ekle
 import App from './App';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
