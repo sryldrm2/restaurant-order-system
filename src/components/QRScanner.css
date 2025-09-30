@@ -1,0 +1,58 @@
+.qr-scanner-page {
+    background-color: #f8f6f0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .scanner-container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .scanner-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .scanner-container p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .scanner-wrapper {
+    margin: 20px 0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .error-message {
+    background-color: #ffebee;
+    color: #d32f2f;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .manual-table-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .manual-table-btn:hover {
+    background-color: #5a6268;
+  }
